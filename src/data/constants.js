@@ -8,7 +8,7 @@ export const Bio = {
   
   github: "https://github.com/arrovain",
   
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+  linkedin: "https://www.linkedin.com/in/mahmut-i%C3%A7me-71a59b2a6/",
 
 
 

@@ -44,7 +44,7 @@ const Navbar = () => {
             
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Projects</MobileLink>
+            }}>Projelerim</MobileLink>
            
             <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
