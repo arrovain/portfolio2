@@ -148,17 +148,17 @@ const Contact = () => {
    
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Mail Gönderebilirsiniz 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactInput placeholder="Emailiniz" name="from_email" />
+          <ContactInput placeholder="İsminiz" name="from_name" />
+          <ContactInput placeholder="Konu" name="subject" />
+          <ContactInputMessage placeholder="Mesajınız" rows="4" name="message" />
+          <ContactButton type="submit" value="Gönder" />
         </ContactForm>
         <Snackbar
           open={open}
           autoHideDuration={6000}
           onClose={()=>setOpen(false)}
-          message="Email sent successfully!"
+          message="Email başarıyla gönderildi."
           severity="success"
         />
       </Wrapper>
