@@ -93,7 +93,7 @@ export const skills = [
         name: "MySQL",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      }
+      },
       {
         name: "MongoDB",
         image:
