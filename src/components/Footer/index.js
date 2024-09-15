@@ -93,7 +93,6 @@ function Footer() {
           <NavLink href="#about">Hakkımda</NavLink>
           <NavLink href="#skills">Yazılım Bilgim</NavLink>
           
-          <NavLink href="#projects">Projelerim</NavLink>
         
         </Nav>
         <SocialMediaIcons>

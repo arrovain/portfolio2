@@ -13,9 +13,9 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
+          
+          <Span style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>Portfolio</Span>
+          
         </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => {
@@ -25,8 +25,7 @@ const Navbar = () => {
         <NavItems>
           <NavLink href="#about">Hakkımda</NavLink>
           <NavLink href='#skills'>Yazılım Bilgim</NavLink>
-         
-          <NavLink href='#projects'>Projelerim</NavLink>
+        
           
         </NavItems>
         <ButtonContainer>

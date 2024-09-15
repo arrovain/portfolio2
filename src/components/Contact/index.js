@@ -148,10 +148,10 @@ const Contact = () => {
    
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Mail Gönderebilirsiniz 🚀</ContactTitle>
-          <ContactInput placeholder="Emailiniz" name="from_email" />
-          <ContactInput placeholder="İsminiz" name="from_name" />
+          <ContactInput placeholder="Email" name="from_email" />
+          <ContactInput placeholder="İsim" name="from_name" />
           <ContactInput placeholder="Konu" name="subject" />
-          <ContactInputMessage placeholder="Mesajınız" rows="4" name="message" />
+          <ContactInputMessage placeholder="Mesaj" rows="4" name="message" />
           <ContactButton type="submit" value="Gönder" />
         </ContactForm>
         <Snackbar
